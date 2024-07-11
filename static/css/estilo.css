@@ -1,0 +1,342 @@
+@font-face {
+    font-family: gothamrnd;
+    src: url(/static/font/GothamRnd-Light.otf);
+}
+
+
+
+*{
+    background-color: rgb(211, 211, 211);
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: gothamrnd;
+
+}
+
+#logo{
+    position: fixed;
+    width: 13%;
+    background-color: #384f9b00;
+    margin-left: 83%;
+    z-index: 60;
+}
+
+ul{
+    margin-left: 25%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+li{
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-family: gothamrnd; 
+    background-color:#384f9b;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 3ms;
+}
+
+a span{
+    background-color:#384f9b;
+    color: aliceblue;
+    border-radius: 6px;
+    transition: 3ms;
+    position:relative;
+    padding: 10px;
+ }
+
+ a:hover span{
+    background:#5e396d;
+    
+   }
+   
+   #portada{
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    width: 90%;
+    z-index: 1;
+    background-color: #384f9b00;
+    clip-path: inset(0% 0% 20% 0%);
+
+
+   }
+   #tituloPortada{
+    position:relative;
+    margin-top: -35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 180%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.599);
+    padding: 1% 5%;
+    font-family: gothamrnd; 
+    z-index: 10;
+   }
+   strong{
+    text-decoration: none;
+    background-color: #02020200;
+    font-size: 110%;
+   }
+
+   #parrafoPortada{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 55%;
+    font-family: gothamrnd;
+    font-size: 120%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.599);
+    padding: 1% 5%;
+    z-index: 11;
+   }
+
+   #piePortada{
+    color: white;
+    position: relative;
+    text-align: right;
+    text-decoration: none;
+    background-color: #0202028e;
+    margin-right: 6%;
+    margin-left: 70%;
+    margin-bottom: 1%;
+    font-size: 100%;
+    font-family: gothamrnd;
+   }
+
+   #linkDivulgacion{
+    position: relative;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+    background-color: rgba(194, 14, 194, 0.26);
+    padding: 0% 1% ;
+   }
+
+   .banner{
+    position: relative;
+   }
+
+   #colorete{
+    position: absolute;
+    clip-path: inset(22% 7% 22% 7%);
+    width: 30%;
+    margin-left: 13%;
+    margin-top: -2%;
+   }
+   .publicitario{
+    background-color: #f4aa28;
+    position: relative;
+    margin: 5% 5%  -12% 5%;
+    width: 90%;
+    height: 180px;
+   }
+   #publicidadDos{
+    clip-path: inset(10% 23% 55% 27%);
+    width: 48%;
+    margin-top: -1%; 
+    margin-left: 50%;
+    margin-right: 0%;
+   }
+
+   .noticias{
+    background-color: #ffffff;
+    margin-top: 18%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: white;
+    padding-bottom: 0%;
+    font-family: gothamrnd;
+   }
+
+   .noticias img{
+    width: 25%;
+    height: 170px;
+    margin-top: 2%;
+    border-bottom: 2% solid #834f98;
+   }
+   a{
+    text-decoration: none;
+    background-color: #02020200;
+    color: #464545;
+   }
+   
+   #semanales {
+    position: absolute;
+    margin-top: -3.7%;
+    margin-bottom: -5%;
+    margin-left: 0%;
+    font-size: 120%;
+    padding-top: 1%;
+    background-color: #384f9b;
+    padding: 1% 2%;
+    color: white;
+   }
+   .noticias h3{
+    background-color: #02020200;   
+    color: black;
+    font-family: gothamrnd;
+    margin-left: 30%;
+    margin-top: -14%;
+    text-decoration: underline;
+   }   
+   .noticias h5{
+    background-color: #02020200;
+    color: black;   
+    font-family: gothamrnd;
+    margin-left: 30%;
+    margin-top: 1%;
+    margin-right: 20%;
+   }
+   
+   .noticias h6 {
+    color:#ffffff;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    background-color: #02020246;
+    margin-top: 1%;
+    margin-right: 15%;
+    margin-left: 60%;
+    margin-bottom: 1%;
+    font-size: 100%;
+    font-family: gothamrnd;
+    font-size: 80% ;
+   }
+
+   .noticias hr{
+    margin-top: 5%;
+    padding-bottom: 0%;
+    color: #834f98;
+    height: 2px
+   }
+
+   .noticias br{
+    padding: 0%;
+    margin: 0%;
+    display: inline-block;
+   }
+
+   .videosNoticias{
+    background-color: #fcacb7;
+    margin-left: 5%;
+    padding: 3%;
+    margin-right: 5%;
+   }
+
+   .videosNoticias iframe{
+    width: 40%;
+    margin-left: 5%;
+   }
+
+   .videosNoticias h3{
+    background-color: #0202026b;
+    color: white;
+    padding: 1% 2%;
+    font-family: gothamrnd;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-block;
+    margin-left: 7%;
+   }
+   
+   #v3{
+    position: relative;
+    color: #ffffff;
+    margin-right: 8%;
+    margin-left: 12%;
+   }
+
+   .pie{
+    background-color: #e4e4e4;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+   }
+
+   #loguito{
+    margin-top: 2%;
+    margin-left: 0%;
+    width: 20%;
+    background-color: #eb0eff00;
+   }
+
+   .pie h6{
+    background-color: #e5ff0000;
+    margin-top: 1%;
+    margin-right: 80%;
+    margin-left: 1%;
+    font-size: 80%;
+    text-align: justify;
+    padding-bottom: 2%;
+   }
+
+   .pie ul{
+    position:absolute;
+    display: inline-block;
+    background-color: #3cff0000;
+    margin-top: -20%;
+    margin-right: 4%;
+
+   }
+
+   .pie li{
+    align-items: center;
+    text-align: center;
+    color: #242424;
+    font-size: 150%;
+    margin-left: 15%;
+    margin-top: 5%;
+    background-color: #02020200;
+   }
+
+   .pie a{
+    
+    background-color: #02020200;
+   }
+   
+   .pie h4{
+    display: inline-block;
+    background-color: #0dff0900;
+    margin-left: 1%;
+    margin-right: 0%;
+    margin-top: 0%;
+
+   }
+
+   .pie h5{
+    background-color: #ff111100;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
+   }
+
+   .pie img{
+    margin-top: 10%;
+    width: 40px;
+    background-color: #02020200;
+    margin-left:0%;
+    }
+    #youtube{
+        width: 50px;
+    }
+    #tiktok{
+        width: 50px;
+        margin-top: 0%;
+    }
+
+  
+
+
+
+   
+
+
+
+
